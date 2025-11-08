@@ -1,10 +1,8 @@
 # NAME: AdobeActivation
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdobeActivation
-# UPDATED: 2025-11-09 22:00:00
-# HOST-SUFFIX: 1217
-# IP-CIDR: 30
-# TOTAL: 1247
+# 这些ip只会阻止Adobe应用程序的遥测检查
+# 不会干扰任何其他网络选项，例如 AI 生成、下载等
 
 ## 一、.adobestats.io 系列（Adobe 遥测统计域名，去重后 386 条）
 HOST-SUFFIX,0bj2epfqn1.adobestats.io,AdobeActivation
