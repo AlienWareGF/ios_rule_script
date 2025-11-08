@@ -1,5 +1,5 @@
 # NAME: AdobeActivation
-# AUTHOR: blackmatrix7
+# AUTHOR: 互联网
 # REPO: https://macwk.cn + https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdobeActivation
 # UPDATED: 不定时
 # HOST: 191
