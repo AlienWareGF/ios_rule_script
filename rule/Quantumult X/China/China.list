@@ -3,30 +3,16 @@
 # REPO: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaMax
 # UPDATED: 2025-11-08 02:10:01
 # HOST: 0（本次精简未保留独立HOST条目）
-# HOST-SUFFIX: 77（实际筛选后HOST-SUFFIX条目数）
-# TOTAL: 77（总条目数，与HOST-SUFFIX数量一致）
+# HOST-SUFFIX: 94（实际筛选后HOST-SUFFIX条目数）
+# TOTAL: 49（总条目数，与HOST-SUFFIX数量一致）
 
-# 主流平台核心域名
-HOST-SUFFIX,baidu.com,China
-HOST-SUFFIX,qq.com,China
-HOST-SUFFIX,aliyun.com,China
-HOST-SUFFIX,taobao.com,China
-HOST-SUFFIX,tmall.com,China
-HOST-SUFFIX,jd.com,China
+
+# 影音娱乐类
 HOST-SUFFIX,douyin.com,China
 HOST-SUFFIX,kuaishou.com,China
 HOST-SUFFIX,bilibili.com,China
 HOST-SUFFIX,weibo.com,China
-HOST-SUFFIX,zhihu.com,China
 HOST-SUFFIX,netease.com,China
-HOST-SUFFIX,sohu.com,China
-HOST-SUFFIX,sina.com,China
-HOST-SUFFIX,163.com,China
-HOST-SUFFIX,360.cn,China
-HOST-SUFFIX,ifeng.com,China
-HOST-SUFFIX,toutiao.com,China
-
-# 影音娱乐类
 HOST-SUFFIX,kuwo.cn,China
 HOST-SUFFIX,kuwo.com,China
 HOST-SUFFIX,xiami.com,China
@@ -37,11 +23,14 @@ HOST-SUFFIX,huoshan.com,China
 HOST-SUFFIX,xigua.com,China
 HOST-SUFFIX,kwai.com,China
 HOST-SUFFIX,inke.cn,China
+HOST-SUFFIX,sohu.com,China
+HOST-SUFFIX,sina.com,China
+HOST-SUFFIX,163.com,China
+HOST-SUFFIX,360.cn,China
+HOST-SUFFIX,ifeng.com,China
+HOST-SUFFIX,toutiao.com,China
 
 # 内容分发/静态资源
-HOST-SUFFIX,zhihuapp.com,China
-HOST-SUFFIX,zhihuusercontent.com,China
-HOST-SUFFIX,zhihuimg.com,China
 HOST-SUFFIX,baiduimg.com,China
 HOST-SUFFIX,bdstatic.com,China
 HOST-SUFFIX,qqimg.com,China
@@ -66,26 +55,40 @@ HOST-SUFFIX,aliimg.com,China
 HOST-SUFFIX,alicdn.com,China
 HOST-SUFFIX,aliyuncs.com,China
 HOST-SUFFIX,aliyuncdn.com,China
+HOST-SUFFIX,zhihuapp.com,China
+HOST-SUFFIX,zhihuusercontent.com,China
+HOST-SUFFIX,zhihuimg.com,China
 
 # 生活服务类
+HOST-SUFFIX,meituan.com,China
+HOST-SUFFIX,ele.me,China
+HOST-SUFFIX,jd.com,China
+HOST-SUFFIX,taobao.com,China
+HOST-SUFFIX,tmall.com,China
 HOST-SUFFIX,amap.com,China
 HOST-SUFFIX,autonavi.com,China
 HOST-SUFFIX,gaode.com,China
-HOST-SUFFIX,meituan.com,China
-HOST-SUFFIX,ele.me,China
 HOST-SUFFIX,didi.com,China
 HOST-SUFFIX,ctrip.com,China
 HOST-SUFFIX,qunar.com,China
 HOST-SUFFIX,12306.com,China
+HOST-SUFFIX,aliyun.com,China
 
 # 支付/社交类
-HOST-SUFFIX,zhifubao.com,China
-HOST-SUFFIX,alipay.com,China
 HOST-SUFFIX,weixin.qq.com,China
-HOST-SUFFIX,wechat.com,China
+HOST-SUFFIX,alipay.com,China
+HOST-SUFFIX,zhifubao.com,China
+HOST-SUFFIX,baidu.com,China
+HOST-SUFFIX,zhihu.com,China
+HOST-SUFFIX,qq.com,China
 HOST-SUFFIX,wx.qq.com,China
+HOST-SUFFIX,wechat.com,China
 HOST-SUFFIX,wximg.com,China
 HOST-SUFFIX,paypal.cn,China
+HOST-SUFFIX,xiaohongshu.com,China
+HOST-SUFFIX,2.taobao.com,China
+HOST-SUFFIX,xianyu.taobao.com,China
+HOST-SUFFIX,goofish.com,China
 
 # 办公协作类
 HOST-SUFFIX,feishu.cn,China
@@ -98,3 +101,36 @@ HOST-SUFFIX,zhihuishu.com,China
 HOST-SUFFIX,xueersi.com,China
 HOST-SUFFIX,chaoxing.com,China
 HOST-SUFFIX,icourse163.org,China
+
+# 国产AI类
+HOST-SUFFIX,doubao.com,China
+HOST-SUFFIX,ernie.baidu.com,China
+HOST-SUFFIX,tongyi.aliyun.com,China
+HOST-SUFFIX,qianwen.aliyun.com,China
+HOST-SUFFIX,wenxin.baidu.com,China
+HOST-SUFFIX,ai.tencent.com,China
+HOST-SUFFIX,hunyuan.tencent.com,China
+HOST-SUFFIX,moonshot.cn,China
+HOST-SUFFIX,kimi.moonshot.cn,China
+HOST-SUFFIX,zhishifenzi.com,China
+HOST-SUFFIX,zhipuai.cn,China
+HOST-SUFFIX,baichuan-ai.com,China
+HOST-SUFFIX,lingyiwanwu.com,China
+HOST-SUFFIX,deepseek.com,China
+HOST-SUFFIX,xinghuo.xfyun.cn,China
+HOST-SUFFIX,xinghuoai.cn,China
+HOST-SUFFIX,ai.mgtv.com,China
+HOST-SUFFIX,ai.jd.com,China
+HOST-SUFFIX,yiyan.baidu.com,China
+
+# 远程办公类
+HOST-SUFFIX,todesk.com,China
+HOST-SUFFIX,raylink.com,China
+HOST-SUFFIX,oray.com,China
+HOST-SUFFIX,teamviewer.com.cn,China
+HOST-SUFFIX,anydesk.com.cn,China
+HOST-SUFFIX,rustdesk.com,China
+HOST-SUFFIX,腾讯云远程桌面.cn,China
+HOST-SUFFIX,aliyunremote.com,China
+HOST-SUFFIX,华为云桌面.cn,China
+HOST-SUFFIX,feishu.remote.cn,China
