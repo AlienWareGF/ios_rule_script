@@ -898,4 +898,4 @@ HOST,practivate.adobe.de,AdobeActivation
 HOST,prod-rel-ffc-ccm.oobesaas.adobe.com,AdobeActivation
 HOST,s-2.adobe.com,AdobeActivation
 HOST,s-3.adobe.com,AdobeActivation
-HOST,tss-geotrust-crl.thawte.com,
+HOST,tss-geotrust-crl.thawte.com,AdobeActivation
