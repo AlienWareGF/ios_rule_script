@@ -1,4 +1,4 @@
-# [敲打] AdobeActivation
+# 🪄 AdobeActivation
 
 ## 前言
 
