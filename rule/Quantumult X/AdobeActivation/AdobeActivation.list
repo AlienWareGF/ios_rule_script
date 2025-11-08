@@ -233,7 +233,7 @@ IP-CIDR,65.8.207.109/32,AdobeActivation
 IP-CIDR,100.24.211.130/32,AdobeActivation
 IP-CIDR,162.247.242.20/32,AdobeActivation
 IP-CIDR,199.232.114.137/32,AdobeActivation
-IP-CIDR,192.150.14.69,AdobeActivation
+IP-CIDR,192.150.14.69/32,AdobeActivation
 IP-CIDR,192.150.18.101,AdobeActivation
 IP-CIDR,192.150.18.108,AdobeActivation
 IP-CIDR,192.150.22.40,AdobeActivation
