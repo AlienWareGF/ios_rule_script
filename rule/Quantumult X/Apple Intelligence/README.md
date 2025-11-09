@@ -1,4 +1,4 @@
-# 🪄 Apple Intelligence
+# 🍎 Apple Intelligence
 
 ## 前言
 
