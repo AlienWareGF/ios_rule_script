@@ -2,29 +2,6 @@
 # REPO: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaMax
 # 不定时更新
 
-# 影音娱乐类
-HOST-SUFFIX,douyin.com,China
-HOST-SUFFIX,kuaishou.com,China
-HOST-SUFFIX,bilibili.com,China
-HOST-SUFFIX,weibo.com,China
-HOST-SUFFIX,netease.com,China
-HOST-SUFFIX,kuwo.cn,China
-HOST-SUFFIX,kuwo.com,China
-HOST-SUFFIX,xiami.com,China
-HOST-SUFFIX,yy.com,China
-HOST-SUFFIX,acfun.cn,China
-HOST-SUFFIX,miaopai.com,China
-HOST-SUFFIX,huoshan.com,China
-HOST-SUFFIX,xigua.com,China
-HOST-SUFFIX,kwai.com,China
-HOST-SUFFIX,inke.cn,China
-HOST-SUFFIX,sohu.com,China
-HOST-SUFFIX,sina.com,China
-HOST-SUFFIX,163.com,China
-HOST-SUFFIX,360.cn,China
-HOST-SUFFIX,ifeng.com,China
-HOST-SUFFIX,toutiao.com,China
-
 # 内容分发/静态资源
 HOST-SUFFIX,baiduimg.com,China
 HOST-SUFFIX,bdstatic.com,China
