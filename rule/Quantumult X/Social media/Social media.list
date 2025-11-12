@@ -4,7 +4,6 @@ DOMAIN-SUFFIX,jinritemai.com,Social media
 DOMAIN-SUFFIX,huoshan.com,Social media
 DOMAIN-SUFFIX,huoshan.tv,Social media
 DOMAIN-SUFFIX,ixigua.com,Social media
-DOMAIN-SUFFIX,tiktok.com,Social media
 DOMAIN-SUFFIX,bytedance.com,Social media
 DOMAIN-SUFFIX,bytecdn.cn,Social media
 DOMAIN-SUFFIX,byteimg.com,Social media
@@ -13,9 +12,7 @@ DOMAIN-SUFFIX,byteimg.com,Social media
 DOMAIN-SUFFIX,kuaishou.com,Social media
 DOMAIN-SUFFIX,kuaishou.cn,Social media
 DOMAIN-SUFFIX,kuaishou.cc,Social media
-DOMAIN-SUFFIX,kwai.com,Social media
 DOMAIN-SUFFIX,gifshow.com,Social media
-DOMAIN-SUFFIX,kwai8.com,Social media
 DOMAIN-SUFFIX,kwaicdn.com,Social media
 
 # 小红书及关联服务
@@ -24,5 +21,5 @@ DOMAIN-SUFFIX,xhslink.com,Social media
 DOMAIN-SUFFIX,xiaohongshucdn.com,Social media
 DOMAIN-SUFFIX,ark.xiaohongshu.com,Social media
 
-# 通用CDN及第三方依赖
+# 通用CDN及第三方依赖（非必需，按需保留）
 DOMAIN-SUFFIX,cdn.jsdelivr.net,Social media
