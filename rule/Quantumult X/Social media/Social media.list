@@ -1,2 +1,28 @@
-# Social media rules
-# Add your social media domain rules here
+# 抖音及关联服务
+DOMAIN-SUFFIX,douyin.com,Social media
+DOMAIN-SUFFIX,jinritemai.com,Social media
+DOMAIN-SUFFIX,huoshan.com,Social media
+DOMAIN-SUFFIX,huoshan.tv,Social media
+DOMAIN-SUFFIX,ixigua.com,Social media
+DOMAIN-SUFFIX,tiktok.com,Social media
+DOMAIN-SUFFIX,bytedance.com,Social media
+DOMAIN-SUFFIX,bytecdn.cn,Social media
+DOMAIN-SUFFIX,byteimg.com,Social media
+
+# 快手及关联服务
+DOMAIN-SUFFIX,kuaishou.com,Social media
+DOMAIN-SUFFIX,kuaishou.cn,Social media
+DOMAIN-SUFFIX,kuaishou.cc,Social media
+DOMAIN-SUFFIX,kwai.com,Social media
+DOMAIN-SUFFIX,gifshow.com,Social media
+DOMAIN-SUFFIX,kwai8.com,Social media
+DOMAIN-SUFFIX,kwaicdn.com,Social media
+
+# 小红书及关联服务
+DOMAIN-SUFFIX,xiaohongshu.com,Social media
+DOMAIN-SUFFIX,xhslink.com,Social media
+DOMAIN-SUFFIX,xiaohongshucdn.com,Social media
+DOMAIN-SUFFIX,ark.xiaohongshu.com,Social media
+
+# 通用CDN及第三方依赖
+DOMAIN-SUFFIX,cdn.jsdelivr.net,Social media
