@@ -1,57 +1,48 @@
-# 抖音及关联服务
-HOST-KEYWORD,douyin.com,Social media
-HOST-KEYWORD,douyincdn.com,Social media
-HOST-KEYWORD,douyinpic.com,Social media
-HOST-KEYWORD,douyinstatic.com,Social media
-HOST-KEYWORD,douyinvod.com,Social media
-HOST-KEYWORD,iesdouyin.com,Social media
-HOST-KEYWORD,amemv.com,Social media
-HOST-KEYWORD,pstatp.com,Social media
-HOST-KEYWORD,byteimg.com,Social media
-HOST-KEYWORD,toscdn.com,Social media
-HOST-KEYWORD,toutiaocdn.com,Social media
-HOST-KEYWORD,bytecdn.com,Social media
-HOST-KEYWORD,bytecdn.cn,Social media
-HOST-KEYWORD,bytedns.net,Social media
-HOST-KEYWORD,bytedns.com,Social media
-HOST-KEYWORD,zjgslb.com,Social media
-HOST-KEYWORD,bdgslb.com,Social media
-HOST-KEYWORD,oortgslb.com,Social media
-HOST-KEYWORD,jinritemai.com,Social media
-HOST-KEYWORD,huoshan.com,Social media
-HOST-KEYWORD,huoshan.tv,Social media
-HOST-KEYWORD,ixigua.com,Social media
-HOST-KEYWORD,bytedance.com,Social media
+# > 抖音及关联服务
+DOMAIN-SUFFIX,douyin.com
+DOMAIN-SUFFIX,douyincdn.com
+DOMAIN-SUFFIX,douyinpic.com
+DOMAIN-SUFFIX,douyinstatic.com
+DOMAIN-SUFFIX,douyinvod.com
+DOMAIN-SUFFIX,iesdouyin.com
+DOMAIN-SUFFIX,amemv.com
+DOMAIN-SUFFIX,pstatp.com
+DOMAIN-SUFFIX,byteimg.com
+DOMAIN-SUFFIX,toscdn.com
+DOMAIN-SUFFIX,toutiaocdn.com
+DOMAIN-SUFFIX,bytecdn.com
+DOMAIN-SUFFIX,bytecdn.cn
+DOMAIN-SUFFIX,bytedns.net
+DOMAIN-SUFFIX,bytedns.com
+DOMAIN-SUFFIX,zjgslb.com
+DOMAIN-SUFFIX,bdgslb.com
+DOMAIN-SUFFIX,oortgslb.com
+DOMAIN-SUFFIX,jinritemai.com
+DOMAIN-SUFFIX,huoshan.com
+DOMAIN-SUFFIX,huoshan.tv
+DOMAIN-SUFFIX,ixigua.com
+DOMAIN-SUFFIX,bytedance.com
 
-# 快手及关联服务
-HOST-KEYWORD,kuaishou.com,Social media
-HOST-KEYWORD,gifshow.com,Social media
-HOST-KEYWORD,ksapisrv.com,Social media
-HOST-KEYWORD,kuaishoupay.com,Social media
-HOST-KEYWORD,ks-cdn.com,Social media
-HOST-KEYWORD,ksyuncdn.com,Social media
-HOST-KEYWORD,kuaishou.cn,Social media
-HOST-KEYWORD,kuaishou.cc,Social media
-HOST-KEYWORD,kwaicdn.com,Social media
+# > 快手及关联服务
+DOMAIN-SUFFIX,kuaishou.com
+DOMAIN-SUFFIX,gifshow.com
+DOMAIN-SUFFIX,ksapisrv.com
+DOMAIN-SUFFIX,kuaishoupay.com
+DOMAIN-SUFFIX,ks-cdn.com
+DOMAIN-SUFFIX,ksyuncdn.com
+DOMAIN-SUFFIX,kuaishou.cn
+DOMAIN-SUFFIX,kuaishou.cc
+DOMAIN-SUFFIX,kwaicdn.com
 
-# 小红书及关联服务
-HOST-KEYWORD,xiaohongshu.com,Social media
-HOST-KEYWORD,xhslink.com,Social media
-HOST-KEYWORD,xhscdn.com,Social media
-HOST-KEYWORD,xhsdns.com,Social media
-HOST-KEYWORD,xhs.com,Social media
-HOST-KEYWORD,redcdn.cn,Social media
-HOST-KEYWORD,xiaohongshucdn.com,Social media
-HOST-KEYWORD,ark.xiaohongshu.com,Social media
+# > 小红书及关联服务
+DOMAIN-SUFFIX,xiaohongshu.com
+DOMAIN-SUFFIX,xhslink.com
+DOMAIN-SUFFIX,xhscdn.com
+DOMAIN-SUFFIX,xhsdns.com
+DOMAIN-SUFFIX,xhs.com
+DOMAIN-SUFFIX,redcdn.cn
+DOMAIN-SUFFIX,xiaohongshucdn.com
+DOMAIN-SUFFIX,ark.xiaohongshu.com
 
-# 皮皮搞笑及关联服务
-HOST-KEYWORD,pipix.com,Social media
-HOST-KEYWORD,ippzone.com,Social media
-HOST-KEYWORD,pipigx.com,Social media
-HOST-KEYWORD,ppjoke.com,Social media
-HOST-KEYWORD,ppppzone.com,Social media
-HOST-KEYWORD,h5.ippzone.com,Social media
-HOST-KEYWORD,xiaoppi.com,Social media
-
-# 通用CDN及第三方依赖（非必需，按需保留）
-HOST-KEYWORD,cdn.jsdelivr.net,Social media
+# > 通用CDN (jsdelivr在国内有时不稳定，可视情况改为自动选择)
+DOMAIN-SUFFIX,cdn.jsdelivr.net
