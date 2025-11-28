@@ -1,10 +1,9 @@
-# > 抖音及关联服务
 AND,((PROTOCOL,UDP),(DOMAIN-SUFFIX,amemv.com)),REJECT
+# > 抖音及关联服务
 DOMAIN-SUFFIX, amemv.com
 DOMAIN-SUFFIX, douyin.com
 DOMAIN-SUFFIX, iesdouyin.com
 DOMAIN-SUFFIX, snssdk.com
-
 # > 快手及关联服务
 DOMAIN-SUFFIX,kuaishou.com
 DOMAIN-SUFFIX,gifshow.com
@@ -15,7 +14,6 @@ DOMAIN-SUFFIX,ksyuncdn.com
 DOMAIN-SUFFIX,kuaishou.cn
 DOMAIN-SUFFIX,kuaishou.cc
 DOMAIN-SUFFIX,kwaicdn.com
-
 # > 小红书及关联服务
 DOMAIN-SUFFIX,xiaohongshu.com
 DOMAIN-SUFFIX,xhslink.com
@@ -25,6 +23,5 @@ DOMAIN-SUFFIX,xhs.com
 DOMAIN-SUFFIX,redcdn.cn
 DOMAIN-SUFFIX,xiaohongshucdn.com
 DOMAIN-SUFFIX,ark.xiaohongshu.com
-
 # > 通用CDN (jsdelivr在国内有时不稳定，可视情况改为自动选择)
 DOMAIN-SUFFIX,cdn.jsdelivr.net
