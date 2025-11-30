@@ -732,7 +732,7 @@ function TagCheck_QX(content) {
                 item = item.replace(/tls-verification\s*=\s*(true|false)/gi, ""); // 清理旧设置
                 item += ", tls-verification=false";
 
-                // 2. 强制关闭 TFO
+                // 2. 强制关闭 TCP Fast Open
                 item = item.replace(/fast-open\s*=\s*(true|false)/gi, "");
                 item += ", fast-open=false";
 
@@ -746,7 +746,7 @@ function TagCheck_QX(content) {
                 item += ", tls-no-session-ticket=true";
                 if (item.indexOf("tls-no-session-reuse=") == -1) item += ", tls-no-session-reuse=true";
 
-                // 5. 强制 HTTP/1.1 (防止 H2 阻塞)
+                // 5. 强制 HTTP/1.1 (解决 H2 阻塞问题)
                 item = item.replace(/tls-alpn\s*=\s*([^,]+)/gi, ""); // 清理旧 ALPN
                 item += ", tls-alpn=http/1.1";
 
