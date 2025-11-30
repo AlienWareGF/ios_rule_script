@@ -726,23 +726,35 @@ function TagCheck_QX(content) {
           }
             ni = 0
             if (item) {
-                // --- 终极修复：解决红叉 + 1分钟断流 + UDP阻断 ---
-                
-                // 1. 强制关闭 TLS 证书验证 (解决红叉)
-                item = item.replace(/tls-verification\s*=\s*true/gi, "tls-verification=false");
-                if (item.indexOf("tls-verification=") == -1) item += ", tls-verification=false";
+                // --- 终极修复：解决 Host 缺失 + 所有连接问题 ---
 
-                // 2. 强制关闭 TCP Fast Open (防止运营商阻断)
-                item = item.replace(/fast-open\s*=\s*true/gi, "fast-open=false");
-                if (item.indexOf("fast-open=") == -1) item += ", fast-open=false";
+                // A. 提取 SNI (tls-host) 的值，这是 Cloudflare 认可的域名
+                let SNI = item.match(/tls-host\s*=\s*([^,]+)/);
+                let hostValue = SNI ? SNI[1].trim() : '';
 
-                // 3. 【新增】强制关闭 UDP (CF 优选节点通常不支持 UDP，开了反而断流)
-                item = item.replace(/udp-relay\s*=\s*true/gi, "udp-relay=false");
-                if (item.indexOf("udp-relay=") == -1) item += ", udp-relay=false";
+                // B. 清理并设置核心参数 (删除所有可能导致冲突的旧 true/false 值)
+                item = item.replace(/tls-verification\s*=\s*(true|false)/gi, "");
+                item = item.replace(/fast-open\s*=\s*(true|false)/gi, "");
+                item = item.replace(/udp-relay\s*=\s*(true|false)/gi, "");
+                item = item.replace(/tls-no-session-ticket\s*=\s*(true|false)/gi, "");
+                item = item.replace(/tls-no-session-reuse\s*=\s*(true|false)/gi, "");
+                item = item.replace(/tls-alpn\s*=\s*(http\/1.1|h2)/gi, ""); // 清理 ALPN
 
-                // 4. 【核心】强制禁止会话复用 (解决“刚通一会就超时”的元凶)
-                if (item.indexOf("tls-no-session-ticket=") == -1) item += ", tls-no-session-ticket=true";
-                if (item.indexOf("tls-no-session-reuse=") == -1) item += ", tls-no-session-reuse=true";
+                // C. 统一追加安全值
+                item += ", tls-verification=false"; // 必须关闭验证
+                item += ", fast-open=false"; // 必须关闭 TFO
+                item += ", udp-relay=false"; // 必须关闭 UDP
+                item += ", tls-no-session-ticket=true"; // 必须禁止会话复用
+                item += ", tls-alpn=http/1.1"; // 必须降级协议
+
+                // D. 【核心关键】强制同步 Host (解决 Surge Works / QX Fails)
+                if (hostValue !== '') {
+                    item = item.replace(/obfs-host\s*=\s*([^,]+)/g, ""); // 清理旧的 obfs-host 字段
+                    item += ", obfs-host=" + hostValue; // 强制追加 SNI 值到 Host 字段
+                }
+
+                // E. 清理多余空格和逗号
+                item = item.replace(/(\s*,\s*)+/g, ", ").trim();
 
                 Nlist.push(item)
             }
